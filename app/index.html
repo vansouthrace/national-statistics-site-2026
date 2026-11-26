@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaStat — Portal Statistik Indonesia</title>
+<meta name="description" content="NusaStat: angka-angka resmi Indonesia — penduduk, ekonomi, tenaga kerja, kesehatan dan pendidikan — dengan grafik, tabel dan sumber yang jelas.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#view">Lewati ke konten</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span class="brand-text"><strong>NusaStat</strong><small>Portal Statistik Indonesia</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <a href="#/" data-route="">Beranda</a>
+      <a href="#/penduduk" data-route="penduduk">Penduduk</a>
+      <a href="#/ekonomi" data-route="ekonomi">Ekonomi</a>
+      <a href="#/tenaga-kerja" data-route="tenaga-kerja">Tenaga Kerja</a>
+      <a href="#/sosial" data-route="sosial">Sosial</a>
+      <a href="#/data" data-route="data">Data &amp; Metodologi</a>
+    </nav>
+  </div>
+</header>
+
+<main id="view" class="wrap" aria-live="polite"></main>
+<noscript><p class="wrap noscript-note">Situs ini membutuhkan JavaScript untuk menampilkan grafik dan tabel. Aktifkan JavaScript lalu muat ulang halaman.</p></noscript>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>NusaStat</strong> adalah portal statistik independen. Angka-angka di situs ini
+    dirangkum dari rilis resmi <strong>Badan Pusat Statistik (BPS)</strong> dan
+    <strong>Bank Dunia</strong>; setiap angka mencantumkan sumber dan tahunnya di halaman
+    <a href="#/data">Data &amp; Metodologi</a>.</p>
+    <p class="fineprint">Angka dibulatkan untuk keterbacaan. Rilis terbaru: Februari 2025 (BPS).
+    Situs ini berjalan sepenuhnya dari berkas statis, tanpa mengambil data dari jaringan.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
